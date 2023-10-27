@@ -36,7 +36,6 @@ typedef struct {
 void showPixel(pixel p);
 
 float hit(sphere s,float ox,float oy,float *n);
-// la sphere,点光源 x,y,存储点光源效果的 list *n
 
 void generateRandomSpheres(sphere *sphere,unsigned  nbSphere,unsigned dim);
 // list de sphere ;nombre de sphere; dimension de image
